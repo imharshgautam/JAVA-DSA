@@ -1,4 +1,8 @@
-.idea/
+# Mac
 .DS_Store
-*.iml
-out/
+
+# Node
+node_modules
+.env
+dist
+build
