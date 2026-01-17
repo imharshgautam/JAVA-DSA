@@ -30,7 +30,8 @@ public class ArrayLists2D {
 
 
         arr.add(new ArrayList<>());
-        arr.get(arr.size()-1).add(10);
+        arr.get(arr.size()-1).add(5);
+        arr.get(arr.size()-1).add(9);
 
 
 //        System.out.println(arr);
