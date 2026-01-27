@@ -20,7 +20,7 @@ public class ReverseWords {
     }
 
     public static void main(String[] args) {
-        String s = "  hello   world  ";
+        String s = "  Hey I am Harsh Gautam  ";
         System.out.println(reverseWords(s)); // world hello
     }
 }
