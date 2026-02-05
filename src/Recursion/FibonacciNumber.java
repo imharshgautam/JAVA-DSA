@@ -11,6 +11,6 @@ public class FibonacciNumber {
         int n = 10;
         System.out.println(fib(n));
         System.out.println(fib(n));
-
+        System.out.println(fib(n));
     }
 }
