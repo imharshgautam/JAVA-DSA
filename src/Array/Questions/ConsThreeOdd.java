@@ -1,7 +1,8 @@
 package Array.Questions;
 
-class Solution {
-    public boolean threeConsecutiveOdds(int[] arr) {
+public class ConsThreeOdd {
+
+    public static boolean threeConsecutiveOdds(int[] arr) {
         int count = 0;
 
         for (int num : arr) {
@@ -14,16 +15,12 @@ class Solution {
         }
         return false;
     }
-}
 
-public class ConsThreeOdd {
     public static void main(String[] args) {
-        Solution sol = new Solution();
-
         int[] arr1 = {2, 6, 4, 1, 3, 5};
         int[] arr2 = {1, 2, 3, 5};
 
-        System.out.println(sol.threeConsecutiveOdds(arr1)); // true
-        System.out.println(sol.threeConsecutiveOdds(arr2)); // false
+        System.out.println(threeConsecutiveOdds(arr1)); // true
+        System.out.println(threeConsecutiveOdds(arr2)); // false
     }
 }
