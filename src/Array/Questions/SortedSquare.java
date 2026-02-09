@@ -15,3 +15,13 @@ public class SortedSquare {
         return arr;
     }
 
+    public static void main(String[] args) {
+        int[] nums = {-4, -1, 0, 3, 10};
+
+        int[] result = sortedSquares(nums);
+
+        for (int x : result) {
+            System.out.print(x + " ");
+        }
+    }
+}
