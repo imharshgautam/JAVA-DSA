@@ -1,4 +1,4 @@
-package Algorithm;
+package Sorting.Algorithm;
 
 import Utility.ArrayUtil;
 

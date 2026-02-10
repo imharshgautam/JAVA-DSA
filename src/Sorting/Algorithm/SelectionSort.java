@@ -1,4 +1,4 @@
-package Algorithm;
+package Sorting.Algorithm;
 
 import Utility.ArrayUtil;
 
@@ -14,10 +14,8 @@ public class SelectionSort {
                 if(arr[j] < min){
                     min = arr[j];
                     minIndex = j;
-
                 }
             }
-
             int temp = arr[i];
             arr[i] = arr[minIndex];
             arr[minIndex] = temp;
