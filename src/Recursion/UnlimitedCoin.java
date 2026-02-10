@@ -1,7 +1,5 @@
 package Recursion;
 
-import java.util.ArrayList;
-
 public class UnlimitedCoin {
 
     public static void main(String[] args) {
