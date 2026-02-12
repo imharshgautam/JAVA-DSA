@@ -40,9 +40,6 @@ public class MergeTwoSortedArray {
         // remaining elements of b[]
         while (j < b.length) {
             c[k++] = b[j++];
-
-            while (j < b.length) {
-                c[k++] = b[j++];
         }
     }
 }
